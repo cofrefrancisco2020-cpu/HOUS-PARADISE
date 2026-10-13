@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="es-CL">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#263c32">
+  <meta name="description" content="Hous Paradise: una casa de descanso con tres dormitorios, cocina equipada, terraza y jardín en San Pedro de Atacama. Consulta disponibilidad directamente por WhatsApp.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_CL">
+  <meta property="og:title" content="Hous Paradise | Tu casa en San Pedro de Atacama">
+  <meta property="og:description" content="Tres dormitorios, espacios para compartir y un jardín para bajar el ritmo en San Pedro de Atacama.">
+  <meta property="og:image" content="./assets/hero-casa.webp">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="./assets/logo-hous-paradise.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght,SOFT,WONK@9..144,400,30,1;9..144,500,30,1;9..144,600,30,1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./script.js" defer></script>
+  <title>Hous Paradise | Casa de descanso en San Pedro de Atacama</title>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Ir al contenido</a>
+  <header class="site-header" id="inicio">
+    <div class="header-inner">
+      <a class="brand" href="#inicio" aria-label="Hous Paradise, inicio">
+        <img src="./assets/logo-hous-paradise.svg" alt="" width="48" height="52">
+        <span><strong>HOUS <em>PARADISE</em></strong><small>SAN PEDRO DE ATACAMA</small></span>
+      </a>
+      <nav class="desktop-nav" aria-label="Navegación principal">
+        <a href="#la-casa">La casa</a><a href="#espacios">Espacios</a><a href="#galeria">Galería</a><a href="#ubicacion">Ubicación</a>
+      </nav>
+      <a class="header-cta" href="#reservar">Consultar estadía <span aria-hidden="true">↗</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav" aria-label="Abrir menú"><span></span><span></span></button>
+    </div>
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Navegación móvil" hidden>
+      <a href="#la-casa">La casa</a><a href="#espacios">Espacios</a><a href="#galeria">Galería</a><a href="#ubicacion">Ubicación</a><a href="#reservar">Consultar estadía</a>
+    </nav>
+  </header>
+
+  <main id="contenido">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-image" role="img" aria-label="Casa Hous Paradise rodeada de vegetación en San Pedro de Atacama"></div>
+      <div class="hero-shade"></div>
+      <div class="hero-content wrap">
+        <p class="eyebrow light"><span class="eyebrow-line"></span> UN RINCÓN PARA QUEDARSE</p>
+        <h1 id="hero-title">La calma también<br>tiene <i>dirección.</i></h1>
+        <p class="hero-lead">Tu casa de descanso en San Pedro de Atacama. Espacio para compartir, tiempo para desconectar y el oasis justo afuera.</p>
+        <div class="hero-actions"><a class="btn btn-light" href="#reservar">Consultar disponibilidad <span aria-hidden="true">↗</span></a><a class="text-link light-link" href="#la-casa">Descubre la casa <span aria-hidden="true">↓</span></a></div>
+      </div>
+      <div class="hero-bottom wrap"><span>AV. SEQUITOR 47 A · SAN PEDRO DE ATACAMA</span><span>DESLIZA PARA DESCUBRIR <span aria-hidden="true">↓</span></span></div>
+    </section>
+
+    <section class="booking-strip" id="reservar" aria-labelledby="booking-title">
+      <div class="wrap booking-inner">
+        <div class="booking-intro"><span class="micro-label">TU PRÓXIMA ESCAPADA</span><h2 id="booking-title">¿Cuándo nos visitas?</h2></div>
+        <form id="booking-form" class="booking-form">
+          <label>Entrada<input type="date" name="entrada" aria-label="Fecha de entrada" required></label>
+          <label>Salida<input type="date" name="salida" aria-label="Fecha de salida" required></label>
+          <label>Huéspedes<select name="huespedes" aria-label="Cantidad de huéspedes" required><option value="">Seleccionar</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option value="8 o más">8 o más</option></select></label>
+          <button class="btn btn-dark" type="submit">Consultar por WhatsApp <span aria-hidden="true">↗</span></button>
+          <p class="form-error" id="form-error" role="alert" hidden></p>
+        </form>
+      </div>
+    </section>
+
+    <section class="intro-section section-pad" id="la-casa" aria-labelledby="intro-title">
+      <div class="wrap intro-grid">
+        <div class="intro-copy reveal"><p class="eyebrow"><span class="eyebrow-line"></span> BIENVENIDOS A HOUS PARADISE</p><h2 id="intro-title">Una casa para vivir <i>Atacama a tu ritmo.</i></h2><p>Hay lugares que invitan a quedarse un poco más. Aquí las mañanas comienzan entre árboles, las tardes se alargan en la terraza y cada persona encuentra su propio espacio para descansar.</p><p>Hous Paradise reúne tres dormitorios, cocina equipada, un amplio espacio para compartir y áreas verdes en el sector de Sequitor, a unos minutos en vehículo del centro de San Pedro.</p><a class="text-link" href="#espacios">Conoce los espacios <span aria-hidden="true">↗</span></a></div>
+        <div class="intro-visual reveal"><img src="./assets/jardin.webp" alt="Mesa y hamaca entre los árboles del jardín" loading="lazy" width="1600" height="1200"><div class="intro-stamp"><img src="./assets/logo-hous-paradise.svg" alt="" width="48" height="52"><span>UN REFUGIO<br>CON CARÁCTER</span></div></div>
+      </div>
+      <div class="wrap facts-row reveal"><div><strong>03</strong><span>DORMITORIOS</span></div><div><strong>01</strong><span>CASA PARA COMPARTIR</span></div><div><strong>∞</strong><span>MOMENTOS PARA DESCONECTAR</span></div></div>
+    </section>
+
+    <section class="feature-section section-pad" id="espacios" aria-labelledby="feature-title"><div class="wrap">
+      <div class="section-head reveal"><div><p class="eyebrow"><span class="eyebrow-line"></span> CADA RINCÓN TIENE SU MOMENTO</p><h2 id="feature-title">Espacios para <i>sentirse en casa.</i></h2></div><p>Desde una comida sin apuro hasta una siesta bajo los árboles: explora lo que hace especial una estadía aquí.</p></div>
+      <div class="feature-grid">
+        <article class="feature-card large reveal"><img src="./assets/terraza.webp" alt="Terraza techada con vigas de madera y espacios para sentarse" loading="lazy" width="1600" height="1200"><div><span>01 / AL AIRE LIBRE</span><h3>La terraza, el punto de encuentro</h3><p>Un espacio amplio y protegido para compartir durante el día y disfrutar el aire de Atacama al anochecer.</p></div></article>
+        <article class="feature-card reveal"><img src="./assets/salon.webp" alt="Comedor y sala común bajo un techo de vigas de madera" loading="lazy" width="1600" height="1200"><div><span>02 / PARA COMPARTIR</span><h3>Tiempo juntos, sin prisa</h3><p>Comedor y zona de estar para conversaciones largas y planes espontáneos.</p></div></article>
+        <article class="feature-card reveal"><img src="./assets/cocina.webp" alt="Cocina con refrigerador, cocina a gas, microondas y utensilios" loading="lazy" width="1600" height="1200"><div><span>03 / COMO EN CASA</span><h3>Una cocina a tu manera</h3><p>Equipada para preparar desde el desayuno hasta una cena tranquila.</p></div></article>
+      </div>
+    </div></section>
+
+    <section class="rooms-section section-pad" aria-labelledby="rooms-title"><div class="wrap">
+      <div class="section-head reveal"><div><p class="eyebrow"><span class="eyebrow-line"></span> DESCANSO A TU MEDIDA</p><h2 id="rooms-title">Tres dormitorios.<br><i>Muchas formas de viajar.</i></h2></div><p>Una distribución cómoda para familias o grupos que quieren compartir una casa completa y mantener su propio espacio.</p></div>
+      <div class="rooms-grid">
+        <article class="room-card reveal"><img src="./assets/dormitorio-matrimonial.webp" alt="Dormitorio con cama matrimonial, textiles cálidos y decoración tejida" loading="lazy" width="1600" height="1200"><div><span>DORMITORIO 01</span><h3>Matrimonial</h3><p>Un espacio sereno para descansar después de recorrer San Pedro.</p></div></article>
+        <article class="room-card reveal"><img src="./assets/dormitorio-doble.webp" alt="Dormitorio doble con dos camas y textiles en tonos tierra" loading="lazy" width="1600" height="1200"><div><span>DORMITORIO 02</span><h3>Doble</h3><p>Dos camas y la comodidad de tener cada uno su lugar.</p></div></article>
+        <article class="room-card reveal"><img src="./assets/dormitorio-triple.webp" alt="Dormitorio triple con cama matrimonial y otra cama" loading="lazy" width="1200" height="1600"><div><span>DORMITORIO 03</span><h3>Triple</h3><p>Una opción flexible para viajar en familia o con amigos.</p></div></article>
+      </div>
+      <div class="amenities reveal"><h3>Todo lo que necesitas para instalarte</h3><ul><li>Cocina equipada</li><li>Baño con ducha</li><li>Lavandería</li><li>Terraza techada</li><li>Áreas verdes</li><li>Espacios para compartir</li></ul></div>
+    </div></section>
+
+    <section class="story-section" aria-labelledby="story-title"><div class="story-image"><img src="./assets/rostro-entrada.webp" alt="Retrato artesanal sobre madera en la entrada de Hous Paradise" loading="lazy" width="1200" height="1600"></div><div class="story-copy"><div class="story-copy-inner reveal"><p class="eyebrow light"><span class="eyebrow-line"></span> EL DETALLE QUE NOS REPRESENTA</p><h2 id="story-title">Una bienvenida <i>con rostro propio.</i></h2><p>En la entrada, un retrato artesanal tallado sobre madera recibe a quienes llegan. Su expresión tranquila inspiró el símbolo de Hous Paradise: una pequeña señal de la calidez que se vive aquí.</p><a class="text-link light-link" href="#galeria">Mira la galería <span aria-hidden="true">↗</span></a></div></div></section>
+
+    <section class="gallery-section section-pad" id="galeria" aria-labelledby="gallery-title"><div class="wrap">
+      <div class="section-head reveal"><div><p class="eyebrow"><span class="eyebrow-line"></span> UNA MIRADA A LA CASA</p><h2 id="gallery-title">Imagina tus días <i>por aquí.</i></h2></div><p>Fotografías reales de los espacios donde puedes descansar, reunirte y disfrutar el jardín.</p></div>
+      <div class="gallery-grid">
+        <button class="gallery-item tall reveal" type="button" data-full="./assets/hero-casa.webp" data-caption="La casa y su entorno natural"><img src="./assets/hero-casa.webp" alt="Vista exterior de Hous Paradise y su jardín" loading="lazy" width="1600" height="1200"><span>La casa <b aria-hidden="true">↗</b></span></button>
+        <button class="gallery-item reveal" type="button" data-full="./assets/casa-atardecer.webp" data-caption="Hous Paradise al anochecer"><img src="./assets/casa-atardecer.webp" alt="Casa iluminada al anochecer" loading="lazy" width="1280" height="960"><span>Al anochecer <b aria-hidden="true">↗</b></span></button>
+        <button class="gallery-item reveal" type="button" data-full="./assets/jardin.webp" data-caption="El jardín bajo la sombra de los árboles"><img src="./assets/jardin.webp" alt="Mesa y hamaca bajo árboles del jardín" loading="lazy" width="1600" height="1200"><span>El jardín <b aria-hidden="true">↗</b></span></button>
+        <button class="gallery-item reveal" type="button" data-full="./assets/bano.webp" data-caption="Baño con ducha"><img src="./assets/bano.webp" alt="Baño de la casa con ducha" loading="lazy" width="960" height="1280"><span>El baño <b aria-hidden="true">↗</b></span></button>
+        <button class="gallery-item reveal" type="button" data-full="./assets/fogón.webp" data-caption="Fogón exterior"><img src="./assets/fogón.webp" alt="Fogón exterior encendido" loading="lazy" width="960" height="1280"><span>Momentos afuera <b aria-hidden="true">↗</b></span></button>
+      </div>
+    </div></section>
+
+    <section class="location-section section-pad" id="ubicacion" aria-labelledby="location-title"><div class="wrap location-grid">
+      <div class="location-copy reveal"><p class="eyebrow"><span class="eyebrow-line"></span> SAN PEDRO DE ATACAMA</p><h2 id="location-title">Cerca del pueblo.<br><i>En tu propio oasis.</i></h2><p>Estamos en Av. Sequitor 47 A, en San Pedro de Atacama. Un punto de partida para descubrir el destino y volver a la tranquilidad de la casa.</p><div class="address-card"><span>DIRECCIÓN</span><strong>Avenida Sequitor 47 A<br>San Pedro de Atacama, Chile</strong><a class="text-link" href="https://www.google.com/maps/search/?api=1&query=Avenida+Sequitor+47+A%2C+San+Pedro+de+Atacama%2C+Chile" target="_blank" rel="noopener noreferrer">Cómo llegar <span aria-hidden="true">↗</span></a></div></div>
+      <div class="map-frame reveal"><iframe title="Mapa de Avenida Sequitor 47 A, San Pedro de Atacama" src="https://www.google.com/maps?q=Avenida%20Sequitor%2047%20A%2C%20San%20Pedro%20de%20Atacama%2C%20Chile&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+    </div></section>
+
+    <section class="faq-section section-pad" aria-labelledby="faq-title"><div class="wrap faq-grid"><div class="reveal"><p class="eyebrow"><span class="eyebrow-line"></span> ANTES DE VIAJAR</p><h2 id="faq-title">Lo bueno es llegar <i>con todo claro.</i></h2><p>Para fechas, tarifas y detalles de tu estadía, Hugo te responderá directamente por WhatsApp.</p></div><div class="faq-list reveal"><details><summary>¿Cómo consulto disponibilidad?<span aria-hidden="true">+</span></summary><p>Elige tus fechas y la cantidad de huéspedes en el formulario. Se abrirá WhatsApp con el mensaje listo para enviar a Hugo.</p></details><details><summary>¿La casa tiene cocina?<span aria-hidden="true">+</span></summary><p>Sí. La casa cuenta con cocina equipada para preparar tus comidas durante la estadía.</p></details><details><summary>¿Dónde está ubicada?<span aria-hidden="true">+</span></summary><p>En Avenida Sequitor 47 A, San Pedro de Atacama, a unos minutos en vehículo del centro.</p></details><details><summary>¿Puedo consultar por estadías en grupo?<span aria-hidden="true">+</span></summary><p>Sí. Indica cuántas personas viajan y sus fechas para que Hugo confirme la distribución y disponibilidad.</p></details></div></div></section>
+
+    <section class="final-cta" aria-labelledby="final-title"><div class="final-bg"></div><div class="wrap final-inner reveal"><img src="./assets/logo-hous-paradise.svg" alt="" width="70" height="74"><p class="eyebrow light">UN LUGAR PARA VOLVER</p><h2 id="final-title">Tu próxima historia<br>comienza <i>aquí.</i></h2><p>Cuéntanos cuándo quieres venir. Te ayudamos a planear tu estadía en Hous Paradise.</p><a class="btn btn-light" href="https://wa.me/56961781294?text=Hola%20Hugo%2C%20quisiera%20consultar%20por%20una%20estad%C3%ADa%20en%20Hous%20Paradise." target="_blank" rel="noopener noreferrer">Hablar con Hugo por WhatsApp <span aria-hidden="true">↗</span></a></div></section>
+  </main>
+  <footer class="site-footer"><div class="wrap footer-main"><a class="brand footer-brand" href="#inicio" aria-label="Hous Paradise, volver al inicio"><img src="./assets/logo-hous-paradise.svg" alt="" width="50" height="54"><span><strong>HOUS <em>PARADISE</em></strong><small>SAN PEDRO DE ATACAMA</small></span></a><div><span>ENCUÉNTRANOS</span><p>Av. Sequitor 47 A<br>San Pedro de Atacama, Chile</p></div><div><span>CONTÁCTANOS</span><a href="https://wa.me/56961781294" target="_blank" rel="noopener noreferrer">+56 9 6178 1294</a></div></div><div class="wrap footer-bottom"><span>© <span id="year">2026</span> Hous Paradise.</span><span>Hecho para disfrutar Atacama.</span></div></footer>
+  <a class="floating-wa" href="https://wa.me/56961781294?text=Hola%20Hugo%2C%20quisiera%20consultar%20por%20Hous%20Paradise." target="_blank" rel="noopener noreferrer" aria-label="Consultar por WhatsApp"><svg viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M16 .8A15.1 15.1 0 0 0 3 23.7L.9 31l7.5-2A15.2 15.2 0 1 0 16 .8Zm0 27.6a12.3 12.3 0 0 1-6.3-1.7l-.5-.3-4.5 1.2 1.2-4.4-.3-.5A12.5 12.5 0 1 1 16 28.4Zm6.9-9.3c-.4-.2-2.2-1.1-2.5-1.2-.3-.1-.6-.2-.8.2-.3.4-1 1.2-1.2 1.4-.2.2-.4.3-.8.1a10.2 10.2 0 0 1-3-1.9 11 11 0 0 1-2.1-2.6c-.2-.4 0-.6.2-.8l.6-.7c.2-.2.3-.4.4-.6.1-.2 0-.5 0-.7l-1.2-2.8c-.3-.7-.6-.6-.8-.6H11c-.3 0-.7.1-1 .5-.4.4-1.4 1.4-1.4 3.3s1.5 3.7 1.7 4c.2.2 3 4.5 7.3 6.3 1 .4 1.8.6 2.4.8 1 .3 1.9.2 2.6.2.8-.2 2.2-.9 2.5-1.8.3-.9.3-1.7.2-1.8-.1-.2-.3-.3-.7-.5Z"/></svg></a>
+  <dialog class="lightbox" id="lightbox" aria-label="Fotografía ampliada"><button class="lightbox-close" type="button" aria-label="Cerrar fotografía">×</button><img alt=""><p></p></dialog>
+</body>
+</html>
